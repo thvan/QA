@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div style="color: blue;">
+    <h1>{{title}}</h1>
+    <h3>{{description}}</h3>
+  </div>
+ 
+  <nav>
+    <a routerLink="VIDEO" class="btn btn-primary active" role="button" routerLinkActive="active">---VIDEO---</a>
+    <a routerLink="GIAO TRINH" class="btn btn-primary active" role="button" routerLinkActive="active">---GIAO TRINH---</a>
+    <a routerLink="CH" class="btn btn-primary active" role="button" routerLinkActive="active">---CH---</a>
+    <a routerLink="CTL" class="btn btn-primary active" role="button" routerLinkActive="active">---CTL---</a>
+    <a [routerLink]="'/admin'" class="btn btn-primary active" role="button" routerLinkActive="active">--admin--</a>
+  </nav>
+  <router-outlet></router-outlet>
+ 
+</div>
+
+<!-- <app-tailieu-list></app-tailieu-list> -->

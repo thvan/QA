@@ -1,0 +1,123 @@
+<!-- 
+
+<h3>Tạo bảng tin mới</h3>
+<div [hidden]="submitted" style="width: 600px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="STT_l">STT_l: </label>
+      <input type="text" class="form-control" id="" required [(ngModel)]="tailieu.STT_l" name="">
+    </div>
+ 
+    <div class="form-group">
+      <label for="STT_tl">STT_tl: </label>
+      <input type="text" class="form-control" id="" required [(ngModel)]="tailieu.STT_tl" name="">
+    </div>
+
+    <div class="form-group">
+      <label for="Tentailieu">Tentailieu: </label>
+      <input type="text" class="form-control" id="" required [(ngModel)]="tailieu.Tentailieu" name="">
+    </div>
+
+    <div class="form-group">
+        <label for="linktailieu">linktailieu: </label>
+        <input type="text" class="form-control" id="" required [(ngModel)]="tailieu.linktailieu" name="">
+      </div>
+
+      <div class="form-group">
+        <label for="Nguontailieu">Nguontailieu: </label>
+        <input type="text" class="form-control" id="" required [(ngModel)]="tailieu.Nguontailieu" name="">
+      </div>
+
+      <div class="form-group">
+        <label for="Luotthich">Luotthich: </label>
+        <input type="text" class="form-control" id="" required [(ngModel)]="tailieu.Luotthich" name="">
+      </div>
+      
+ 
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+ 
+<div [hidden]="!submitted">
+  <h4>Đã thêm thành công!</h4>
+  <button class="btn btn-success" (click)="newTailieu()">Add</button>
+</div>
+
+npm install firebase @angular/fire --save -->
+
+<!-- <h3>Tạo bảng tin mới</h3>
+<div [hidden]="submitted" style="width: 300px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Tên bảng tin: </label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="new.Newname" name="name">
+    </div>
+ 
+    <div class="form-group">
+      <label for="age">ngày đăng: </label>
+      <input type="text" class="form-control" id="age" required [(ngModel)]="new.day" name="age">
+    </div>
+
+    <div class="form-group">
+      <label for="age">anh: </label>
+      <input type="file" class="form-control" id="age" required [(ngModel)]="new.img" name="age">
+    </div>
+
+    <div class="form-group">
+        <label for="age">nội dung: </label>
+        <input type="text" class="form-control" id="age" required [(ngModel)]="new.content" name="age">
+      </div>
+      
+ 
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+ 
+<div [hidden]="!submitted">
+  <h4>Đã thêm thành công!</h4>
+  <button class="btn btn-success" (click)="newNew()">Add</button>
+</div> -->
+
+<h3>Tạo bảng tin mới</h3>
+<div [hidden]="submitted" style="width: 600px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">STT_l: </label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="tailieu.STT_l" name="name">
+    </div>
+ 
+    <div class="form-group">
+      <label for="age">STT_tl: </label>
+      <input type="text" class="form-control" id="age" required [(ngModel)]="tailieu.STT_tl" name="age">
+    </div>
+
+    <div class="form-group">
+      <label for="age">Tentailieu: </label>
+      <input type="text" class="form-control" id="age" required [(ngModel)]="tailieu.Tentailieu" name="age">
+    </div>
+
+    <div class="form-group">
+        <label for="age">linktailieu: </label>
+        <input type="text" class="form-control" id="age" required [(ngModel)]="tailieu.linktailieu" name="age">
+      </div>
+
+      <div class="form-group">
+        <label for="age">Nguontailieu: </label>
+        <input type="text" class="form-control" id="age" required [(ngModel)]="tailieu.Nguontailieu" name="age">
+      </div>
+
+      <div class="form-group">
+        <label for="age">Luotthich: </label>
+        <input type="text" class="form-control" id="age" required [(ngModel)]="tailieu.Luotthich" name="age">
+      </div>
+      
+ 
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+ 
+<div [hidden]="!submitted">
+  <h4>Đã thêm thành công!</h4>
+  <button class="btn btn-success" (click)="newTailieu()">Add</button>
+</div>
+
